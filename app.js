@@ -22,14 +22,10 @@ var reponses = [];
 //Start the game
 initGame();
 
-
 //Function to diplay normal questions
 function displayNormalQuestion() {
   const answers = [];
 
-  console.log (questions)
-  console.log(Object.keys(questions))
-  
   Object.keys(questions).map((ele) => {
     answers.push(`<div class="p-2 w-full text-sm"> 
                     <span class="p-1 px-2 mr-3 rounded text-white bg-blue-600 font-bold">${ele} </span>
